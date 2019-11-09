@@ -16,7 +16,7 @@ class MainViewController: UIViewController {
     var recipesTableViewController: RecipesTableViewController?
     var filteredRecipes: [Recipe] = []
     var searchController: UISearchController!
-    var recipes: [Recipe] = [] {
+    private var recipes: [Recipe] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -33,8 +33,8 @@ class MainViewController: UIViewController {
             }
             
             DispatchQueue.main.async {
-                if let recipes = allRecipes {
-                    self.filteredRecipes = recipes
+                if let allRecipes = allRecipes {
+                    self.recipes = allRecipes
                 }
             }
             
@@ -69,7 +69,7 @@ class MainViewController: UIViewController {
 }
 extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return allRecipes.count
+        return recipes.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -77,7 +77,7 @@ extension MainViewController: UITableViewDataSource {
         
         // Configure the cell...
         
-        let recipe = allRecipes[indexPath.row]
+        let recipe = recipes[indexPath.row]
         cell.textLabel?.text = recipe.name
         return cell
         

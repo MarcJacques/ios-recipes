@@ -53,6 +53,9 @@
                         <viewLayoutGuide key="safeArea" id="8JR-sa-yDF"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recipes" id="H05-iK-WTH"/>
+                    <connections>
+                        <outlet property="tableView" destination="y9N-d8-MnP" id="B7v-S6-Cdb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6g0-ya-Fic" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
