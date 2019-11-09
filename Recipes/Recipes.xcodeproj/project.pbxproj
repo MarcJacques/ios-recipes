@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		05F09AB223760761004DA2EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F09AB123760761004DA2EF /* MainViewController.swift */; };
-		05F09AB4237608B0004DA2EF /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F09AB3237608B0004DA2EF /* RecipesTableViewController.swift */; };
 		05F09AB623760C40004DA2EF /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F09AB523760C40004DA2EF /* RecipeDetailViewController.swift */; };
 		9D59AF432117E647002FB7CD /* RecipesNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59AF422117E647002FB7CD /* RecipesNetworkClient.swift */; };
 		9D59B52C2117F533002FB7CD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B52B2117F533002FB7CD /* Recipe.swift */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		05F09AB123760761004DA2EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		05F09AB3237608B0004DA2EF /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
 		05F09AB523760C40004DA2EF /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		9D59AF422117E647002FB7CD /* RecipesNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesNetworkClient.swift; sourceTree = "<group>"; };
 		9D59B52B2117F533002FB7CD /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -47,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				05F09AB123760761004DA2EF /* MainViewController.swift */,
-				05F09AB3237608B0004DA2EF /* RecipesTableViewController.swift */,
 				05F09AB523760C40004DA2EF /* RecipeDetailViewController.swift */,
 			);
 			path = "View Controllers";
@@ -185,7 +182,6 @@
 				9D59B52C2117F533002FB7CD /* Recipe.swift in Sources */,
 				05F09AB223760761004DA2EF /* MainViewController.swift in Sources */,
 				05F09AB623760C40004DA2EF /* RecipeDetailViewController.swift in Sources */,
-				05F09AB4237608B0004DA2EF /* RecipesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

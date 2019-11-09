@@ -37,10 +37,13 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BUJ-Wx-C2K" kind="show" identifier="DetailVCSegue" id="Xgf-Wp-Lkh"/>
+                                            <segue destination="BUJ-Wx-C2K" kind="show" identifier="DetailVCSegue" id="5gG-KW-yaa"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2DD-oM-Tyr" id="KYf-C5-hj9"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -98,8 +101,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="TYG-g6-VHx"/>
                     <connections>
-                        <outlet property="recipeLabel" destination="599-Jj-8Yb" id="W6l-A5-Ix2"/>
-                        <outlet property="recipeTextView" destination="OJ4-jO-Yd0" id="vXY-aa-aYQ"/>
+                        <outlet property="recipeLabel" destination="599-Jj-8Yb" id="esh-gb-Rqx"/>
+                        <outlet property="recipeTextView" destination="OJ4-jO-Yd0" id="0ia-Ju-xJa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BwH-hp-9rI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
