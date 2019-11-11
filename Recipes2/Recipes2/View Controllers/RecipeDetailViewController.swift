@@ -1,9 +1,9 @@
 //
 //  RecipeDetailViewController.swift
-//  Recipes
+//  Recipes2
 //
-//  Created by Marc Jacques on 11/8/19.
-//  Copyright © 2019 Lambda Inc. All rights reserved.
+//  Created by Marc Jacques on 11/10/19.
+//  Copyright © 2019 Marc Jacques. All rights reserved.
 //
 
 import UIKit
@@ -36,6 +36,7 @@ class RecipeDetailViewController: UIViewController {
         }
     }
 }
+
 /*
  // MARK: - Navigation
  
@@ -45,4 +46,5 @@ class RecipeDetailViewController: UIViewController {
  // Pass the selected object to the new view controller.
  }
  */
+
 

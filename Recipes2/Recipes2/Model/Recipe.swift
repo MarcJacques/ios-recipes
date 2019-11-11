@@ -1,8 +1,9 @@
 //
 //  Recipe.swift
-//  App
+//  Recipes2
 //
-//  Created by Andrew R Madsen on 8/5/18.
+//  Created by Marc Jacques on 11/10/19.
+//  Copyright © 2019 Marc Jacques. All rights reserved.
 //
 
 import Foundation
